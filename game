@@ -1,0 +1,15 @@
+our_fav_num = 10
+user_guess = int(input ("enter guess: "))
+
+
+while(user_guess < our_fav_num):
+    print("Not correct. Number you typed in was too low")
+    user_guess = int(input ("Guess again: "))
+while (user_guess > our_fav_num):
+    print("Not correct. Number you typed in was too high")
+    user_guess = int(input("Guess again: "))
+
+if user_guess == our_fav_num:
+    print("yo! you got it mehn")
+
+
